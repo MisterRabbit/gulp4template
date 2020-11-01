@@ -17,9 +17,7 @@ module.exports = scripts = () => {
 	return gulp.src(scriptsPATH.input)
 		.pipe(eslint())
 		.pipe(eslint.format())
-		.pipe(babel({
-			presets: ['@babel/env']
-		}))
+		.pipe(babel())
 		.pipe(gulpif(argv.prod, uglify()))
 		.pipe(rename('main.min.js'))
 		.pipe(gulp.dest(scriptsPATH.output));
