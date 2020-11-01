@@ -1,2 +1,2 @@
 # gulp4template
-The start template based gulp4, pug, scss
+The boilerplate based gulp4, pug, scss, babel
