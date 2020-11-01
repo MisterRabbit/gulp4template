@@ -1,0 +1,12 @@
+{
+	"overrides": [
+		{
+			"files": [
+				"src/assets/**/*.js"
+			],
+			"extends": [
+				"standard"
+			]
+		}
+	]
+}
